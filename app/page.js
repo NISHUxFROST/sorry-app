@@ -73,7 +73,7 @@ export default function Home() {
         </div>
       ) : (
         // STATE 2: SUCCESS SCREEN
-        <div className="animate-bounce">
+        <div className="flex flex-col items-center">
           <h1 className="text-6xl font-bold text-pink-600 mb-4">{successHeader}</h1>
           <p className="text-2xl text-gray-800">{successBody}</p>
         </div>
